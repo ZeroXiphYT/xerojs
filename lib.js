@@ -3,7 +3,7 @@ function $(selector){
         el:document.querySelector(selector),
         html:()=> self.el.innerHTML,
         on:(event, callback)=>{
-            document.addEventListener(event, callback)
+            self.el.addEventListener(event, callback)
         },
         hide:()=> {
             self.el.style.display = 'none'
