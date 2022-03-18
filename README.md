@@ -80,3 +80,9 @@ createChld(It is createChld and not createChild, not a spelling mistake)
 //syntax is createChld(childElement, id, class, innerHTML)
 $('div').createChld('p', 'id', 'class', 'Hello or <strong>Hello</strong>')
 ```
+
+lg
+```javascript
+//just logs to a div with the id of log
+lg('message')
+```
