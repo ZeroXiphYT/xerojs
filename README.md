@@ -15,6 +15,9 @@ $('element')
 $('#id')
 //selecting an element with class
 $('.class')
+//selecting an attribute
+$('[class="class"]')
+//You can combine them like how you do with querySelector
 ```
 Hide and show
 ```javascript
