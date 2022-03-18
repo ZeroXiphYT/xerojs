@@ -2,7 +2,7 @@
 It is Work In Progress So There Is Going To be More added        
   
 This is a jquery clone I made  
-To add this to your project download or clone this repository then if you downloaded this repo add lib.js to your file and put in in your html with <script src="lib.js"></script> or something like that BEFORE any your actual javascript.  
+To add this to your project download or clone this repository then add lib.js to your editor and put in in your html file put <script src="path to lib.js"></script> BEFORE any your actual javascript.  
 
 ## How To Use
 
