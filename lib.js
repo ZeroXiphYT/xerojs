@@ -49,7 +49,7 @@ function $(selector){
     return self
 }
 
-function lg(message){
+function lg(msg){
     var log = document.getElementById('log');
     log.innerHTML += `${msg} <br> `
 }
