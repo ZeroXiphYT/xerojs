@@ -51,15 +51,6 @@ function $(selector){
 
 function lg(message){
     var log = document.getElementById('log');
-    var sl = {
-    msg:(message)=>{
-        log.innerHTML += `${message} <br> `
-
-    },
-    clear:()=>{
-    log.innerHTML = ""
-    }
-    }
-    return sl;
+    log.innerHTML += `${msg} <br> `
 }
 
